@@ -1,0 +1,20 @@
+.card {
+  height: 800px;
+}
+
+.rating-buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    height: max-content;
+  }
+  .rating-buttons-container {
+    flex-direction: column;
+    all: unset;
+    margin-top: 20px;
+  }
+}
